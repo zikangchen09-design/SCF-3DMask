@@ -1,0 +1,80 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.venv/
+venv/
+env/
+
+data/*
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
+runs/
+wandb/
+
+*.zip
+*.7z
+*.rar
+
+checkpoints/*
+!checkpoints/.gitkeep
+**/checkpoints/*
+!**/checkpoints/.gitkeep
+
+*.pth
+*.pt
+*.ckpt
+
+*.log
+.DS_Store
+Thumbs.db
+
+# Public continuity-filling example bundle (other local assets stay ignored).
+!/data/examples/
+/data/examples/*
+!/data/examples/continuity_filling/
+/data/examples/continuity_filling/*
+!/data/examples/continuity_filling/*input*.ply
+!/data/examples/continuity_filling/manifest.json
+!/checkpoints/examples/
+/checkpoints/examples/*
+!/checkpoints/examples/continuity_filling_demo.pth
+
+# Public 3D clipping-mask input examples.
+!/data/examples/3D clipping mask/
+/data/examples/3D clipping mask/*
+!/data/examples/3D clipping mask/*.ply
+
+# Public data index and reproducible example inventory.
+!/data/README.md
+!/data/manifest.json
+
+# Packaging artifacts and local editor settings.
+*.egg-info/
+/build/
+/dist/
+/.idea/
+/.vscode/
+
+# Local author notes and unused parameter reference (not runtime inputs).
+/docs/github_publish.md
+/docs/release_review.md
+/configs/
+
+# Original paper masters stay local; optimized README figures are published.
+/docs/photo/*.png
+/docs/photo/readme/3D clipping mask .png
+
+# Temporary files and machine-local credentials.
+/tmp/
+/temp/
+*.tmp
+*.bak
+*.orig
+.env
+.env.*
+!.env.example

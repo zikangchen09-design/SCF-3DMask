@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "description": "Example checkpoint fitted on a small amount of data and five incomplete point-cloud inputs for continuity-filling demonstrations.",
+  "model": {
+    "architecture": "TopologyRepairNetwork",
+    "network_input_points": 8192,
+    "num_anchors": 64,
+    "feature_dim": 256,
+    "k_neighbors": 16,
+    "output_patch_points": 1024
+  },
+  "checkpoint": {
+    "path": "checkpoints/examples/continuity_filling_demo.pth",
+    "format": "float32_state_dict",
+    "bytes": 82517282,
+    "sha256": "f6e9014833c13d2bec2d7328c18072b6f45176605e2a60a65e32ad906ee74c46",
+    "usage": "Small-data-fitted example weight for demonstrations and interface tests."
+  },
+  "inputs": [
+    {
+      "filename": "scan1 - Cloud_input.ply",
+      "point_count": 8192,
+      "bytes": 221391,
+      "sha256": "d9bfaba7a764333d7fd29fda9d166aecddcbbc7ed959f6ca72acc747444113af"
+    },
+    {
+      "filename": "scan2-Cloud_input.ply",
+      "point_count": 8192,
+      "bytes": 221391,
+      "sha256": "8adaf13dd5221bb74c2599f81044a359222840d5220996ad91dc2ddf94bae38e"
+    },
+    {
+      "filename": "scan3 - Cloud_input.ply",
+      "point_count": 8192,
+      "bytes": 221391,
+      "sha256": "5895045cfe6539de898f5d1a696c29b43ee02f744690f8faade622f1a00d88ba"
+    },
+    {
+      "filename": "scan4 - Cloud_input.ply",
+      "point_count": 8192,
+      "bytes": 221391,
+      "sha256": "3519628426a6c531fe874c67357ceb48f3b9b94afdbf8ca941c43c050ce9d19d"
+    },
+    {
+      "filename": "scan5 - Cloud_input.ply",
+      "point_count": 8192,
+      "bytes": 221391,
+      "sha256": "9a7f9ac1b26ecff27a6b010c9f02211dca1f57b28f8a99996cd7417f7c6d264a"
+    }
+  ],
+  "evaluation_scope": "Inference smoke test only; ground-truth targets and benchmark metrics are not included."
+}

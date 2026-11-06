@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scf-3dmask"
+version = "0.1.0"
+description = "Spatial Continuity Filling Network and 3D Clipping Mask Generator for Unsupervised 3D Object Recovery."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Zikang Chen" },
+  { name = "Zihao Zhang" },
+  { name = "Huifang Hou" },
+  { name = "Zilin Liu" },
+  { name = "Qige Shi" }
+]
+dependencies = [
+  "numpy>=1.23",
+  "scipy>=1.9",
+  "scikit-learn>=1.2",
+  "open3d>=0.17",
+  "shapely>=2.0",
+  "torch>=1.13",
+  "tqdm>=4.64"
+]
+
+[project.optional-dependencies]
+visualization = ["matplotlib>=3.6"]
+
+[project.scripts]
+scf3dmask-pipeline = "scf3dmask.pipeline:main"
+scf3dmask-view = "scf3dmask.visualization:main"
+scf3dmask-train-repair = "scf3dmask.repair.train:main"
+scf3dmask-infer-repair = "scf3dmask.repair.inference:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

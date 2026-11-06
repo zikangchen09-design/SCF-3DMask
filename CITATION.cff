@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use SCF-3DMask, please cite the paper."
+title: "SCF-3DMask: Spatial Continuity Filling Network and 3D Clipping Mask Generator for Unsupervised 3D Object Recovery"
+authors:
+  - family-names: "Chen"
+    given-names: "Zikang"
+  - family-names: "Zhang"
+    given-names: "Zihao"
+  - family-names: "Hou"
+    given-names: "Huifang"
+  - family-names: "Liu"
+    given-names: "Zilin"
+  - family-names: "Shi"
+    given-names: "Qige"
+year: 2026
+license: "MIT"

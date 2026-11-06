@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "scope": "Bundled examples only; public paper datasets are linked from docs/datasets.md and are not redistributed in this inventory.",
+  "point_clouds": [
+    {
+      "path": "data/examples/continuity_filling/scan1 - Cloud_input.ply",
+      "point_count": 8192,
+      "bytes": 221391,
+      "sha256": "d9bfaba7a764333d7fd29fda9d166aecddcbbc7ed959f6ca72acc747444113af",
+      "purpose": "continuity_filling_example",
+      "storage": "git"
+    },
+    {
+      "path": "data/examples/continuity_filling/scan2-Cloud_input.ply",
+      "point_count": 8192,
+      "bytes": 221391,
+      "sha256": "8adaf13dd5221bb74c2599f81044a359222840d5220996ad91dc2ddf94bae38e",
+      "purpose": "continuity_filling_example",
+      "storage": "git"
+    },
+    {
+      "path": "data/examples/continuity_filling/scan3 - Cloud_input.ply",
+      "point_count": 8192,
+      "bytes": 221391,
+      "sha256": "5895045cfe6539de898f5d1a696c29b43ee02f744690f8faade622f1a00d88ba",
+      "purpose": "continuity_filling_example",
+      "storage": "git"
+    },
+    {
+      "path": "data/examples/continuity_filling/scan4 - Cloud_input.ply",
+      "point_count": 8192,
+      "bytes": 221391,
+      "sha256": "3519628426a6c531fe874c67357ceb48f3b9b94afdbf8ca941c43c050ce9d19d",
+      "purpose": "continuity_filling_example",
+      "storage": "git"
+    },
+    {
+      "path": "data/examples/continuity_filling/scan5 - Cloud_input.ply",
+      "point_count": 8192,
+      "bytes": 221391,
+      "sha256": "9a7f9ac1b26ecff27a6b010c9f02211dca1f57b28f8a99996cd7417f7c6d264a",
+      "purpose": "continuity_filling_example",
+      "storage": "git"
+    },
+    {
+      "path": "data/examples/3D clipping mask/basket.ply",
+      "point_count": 220529,
+      "bytes": 11247245,
+      "sha256": "af1b2ae27a59967d6a1cea730d4d27953b4da07afb299b77b7609d8a7d02598e",
+      "purpose": "clipping_example",
+      "storage": "git"
+    },
+    {
+      "path": "data/examples/3D clipping mask/long_deer_norm.ply",
+      "point_count": 1384402,
+      "bytes": 37379064,
+      "sha256": "99a7f8bb95ce0827bc0e760640a841bc1940990fb0c65e4195ff9a1f489e65f1",
+      "purpose": "clipping_example",
+      "storage": "git"
+    },
+    {
+      "path": "data/examples/3D clipping mask/scan2-Cloud.ply",
+      "point_count": 100302,
+      "bytes": 5115668,
+      "sha256": "72d310b2e26df3d2e825df77831ed89987de7837969a361f90c381fc5d8d1b78",
+      "purpose": "clipping_example",
+      "storage": "git"
+    },
+    {
+      "path": "data/examples/3D clipping mask/scan3 - Cloud.ply",
+      "point_count": 154044,
+      "bytes": 7856510,
+      "sha256": "1ccf543ee5c123c8bf378ed43438edf534169da0b659e5eb035acb7d536012fd",
+      "purpose": "clipping_example",
+      "storage": "git"
+    },
+    {
+      "path": "data/examples/3D clipping mask/scan4 - Cloud.ply",
+      "point_count": 383089,
+      "bytes": 19537805,
+      "sha256": "7c0dddc898bfea5b7964047e21c28d2375fe1afb504aef22a6da1e63508fb0a7",
+      "purpose": "clipping_example",
+      "storage": "git"
+    },
+    {
+      "path": "data/examples/3D clipping mask/scan5 - Cloud.ply",
+      "point_count": 88610,
+      "bytes": 4519375,
+      "sha256": "53da1c7d322aedf3033fdbb0e858fd7f8aadd1e81b2f6943a6b2aa18005e1e86",
+      "purpose": "clipping_example",
+      "storage": "git"
+    },
+    {
+      "path": "data/examples/3D clipping mask/ship_norm.ply",
+      "point_count": 6599227,
+      "bytes": 178179339,
+      "sha256": "6e21ef9b9983447a716887e1805b8ff709b4ffcb2aaa95b4d4e71fd73bde546f",
+      "purpose": "clipping_example",
+      "storage": "git_lfs"
+    },
+    {
+      "path": "data/examples/3D clipping mask/statue_norm.ply",
+      "point_count": 6557170,
+      "bytes": 177043800,
+      "sha256": "687c41f41efe705c8123c1a0b5dd365a58cf3cb6fc056cc16627f2725f85f2a2",
+      "purpose": "clipping_example",
+      "storage": "git_lfs"
+    }
+  ],
+  "example_checkpoint": {
+    "path": "checkpoints/examples/continuity_filling_demo.pth",
+    "bytes": 82517282,
+    "sha256": "f6e9014833c13d2bec2d7328c18072b6f45176605e2a60a65e32ad906ee74c46",
+    "usage": "Example weight fitted on a small amount of data for trying continuity filling.",
+    "storage": "git_lfs"
+  }
+}

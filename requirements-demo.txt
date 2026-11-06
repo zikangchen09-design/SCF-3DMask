@@ -1,0 +1,10 @@
+# Direct dependency versions used for the local example checks (Python 3.11).
+# Install the CPU or CUDA PyTorch build appropriate for your platform.
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.5.1
+open3d==0.18.0
+shapely==2.0.6
+torch==2.4.0
+matplotlib==3.7.1
+tqdm==4.66.5
